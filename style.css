@@ -12,6 +12,15 @@ h1, h3 {
     font-weight: 400;
 }
 
+.brand {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 25px;
+}
+
+.brand sub {
+    font-size: 10px;
+}
+
 .weather-app {
     min-height: 100vh;
     background-image: url(images/day/cloudy.jpg);
