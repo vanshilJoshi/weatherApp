@@ -70,7 +70,7 @@ function fetchWeatherData() {
         const iconId = data.current.condition.icon.substr(
             "//cdn.weatherapi.com/weather/64x64/".length
         );
-        icon.str = "./icons/" + iconId;
+        icon.src = "./icons/" + iconId;
 
 
         cloudOutput.innerHTML = data.current.cloud + "%";
